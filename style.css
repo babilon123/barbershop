@@ -1,0 +1,295 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+.container {
+    background: black  url(img/backgrount-index.jpg) no-repeat ;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1px;
+    overflow: hidden;
+}
+.header {
+    background: black;
+}
+.top-nav {
+    height: 87px;
+    padding-left: 130px;
+}
+.top-nav li {
+    float: left;
+    display: block;
+    margin: 30px 10px 30px 10px;
+}
+.top-nav li a{
+    color: aliceblue;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 40px 10px 40px 10px;
+    font-weight: bold;
+}
+ li a:hover{
+    border-bottom: 5px solid #fff;
+    cursor: pointer;
+}
+.center-logo{
+    width: 369px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.features ul li{
+    width: 300px;
+    float: left;
+    color: aliceblue;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    list-style-type: none;
+    margin-left: 65px;
+}
+.title h2{
+    font-family: "PT Sans Narrow";
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    background-image: url(img/romb-title.png);
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.features p{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 16px;
+    line-height: 25px;
+}
+.title-just h2{
+    font-family: "PT Sans Narrow";
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 80px;;
+}
+.content{
+    width: 980px;
+    margin-top: 40px;
+    background: white;
+    margin-left: 125px;
+    overflow: hidden;
+}
+.clear {
+    clear: both;
+    float: none;
+    height: 0;
+    font-size: 0;
+}
+.content-left-colon{
+    float: left;
+    width: 450px;
+    padding-left: 80px;
+}
+.content-title h2 {
+    font-family: "PT Sans Narrow";
+    font-size: 29px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-top: 60px;
+}  
+.content-news{
+    padding-left: 0;
+}
+.content-news li {
+    list-style-type: none;
+    margin-top: 40px; 
+    overflow: hidden;
+    p
+}
+.content-news li a {
+    display: block;
+    text-decoration: none;
+    font-family: "PT Sans Narrow";
+    font-weight: bolder;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content-news li span {
+    display: block;
+    text-transform:;
+    padding-top: 2px;
+    font-style: italic;
+    font-size: 15px;
+}
+.btn {
+    background: #000 ;
+    color: #fff;
+    margin:  30px 5px 30px 0;
+    border-radius: 0;
+    font-family: "PT Sans Narrow";
+    padding: 12px 30px 12px 30px;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-bottom: 65px;
+}
+.line-section{
+    width: 8px;
+    height: 278px;
+    float:left;
+    margin: 60px 0 0 75px;  
+}
+.content-right-colon{
+    float: left;
+    width: 440px;
+    padding-left: 80px;
+}
+.content-photo-title{
+    color: black;
+    margin-top: 55px;
+}
+.content-photo-title h2{
+    font-family: "PT Sans Narrow";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.photo-galary{
+    display: block;
+    margin-top: 40px;
+}
+.galery-control {
+     background: #000 ;
+     color: #fff;
+     margin:  30px 20px 50px 20px;
+     border-radius: 0;
+     font-family: "PT Sans Narrow";
+     padding: 12px 50px 12px 50px;
+     font-size: 13px;
+     font-weight: bold;
+     float: left;
+     display: block;
+}
+.back-and-forth {
+    background: #000 ;
+    color: #fff;
+    margin:  50px 5px 30px 0;
+    border-radius: 0;
+    font-family: "PT Sans Narrow";
+    padding: 12px 50px 12px 50px;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-bottom: 65px;
+}
+.contacts-title {
+    margin-top: 60px;
+}
+.contacts-title h2{
+    font-family: "PT Sans Narrow";
+    font-size: 29px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+.contacts-address{
+    width: 400px;
+}
+.contacts-address p{
+    font-family: "PT Sans Narrow";
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.form{
+    width: 500px;
+}
+.form-p{
+    width: 400px;
+    font-family: "PT Sans Narrow";
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+#orderForm{
+    width: 400px;
+}
+#orderForm input {
+    width: 140px;
+    height: 42px;
+    float: left;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 20px 20px 0 0;
+    border: 2px solid #000;
+    padding-left: 5px;
+}
+.send{
+    background: #000 ;
+    color: #fff;
+    margin:  30px 0 0 0;
+    border-radius: 0;
+    font-family: "PT Sans Narrow";
+    padding: 12px 115px 12px 115px;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-bottom: 65px;
+}
+.footer{
+    background: url("img/footer.png");
+    margin-top: 60px;
+    overflow: hidden;
+}
+.footer-contact-address{
+    margin: 60px 0 50px 0;
+    float: left;
+}
+.footer-contact-address p{
+    font-family: "PT Sans Narrow";
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding-left: 120px;
+}   
+.social-buttons{
+    color: aliceblue;
+    display: block;
+    float: left;
+    margin: 60px 0 70px 0;
+    padding-left: 190px;
+}
+.social-buttons h3{
+    font-family: 'PT Sans Narrow';
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+    
+
+
+
+
+    
+
+    
+
+
+    
+
+
+ 
+
+
+    
