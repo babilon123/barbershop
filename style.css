@@ -1,6 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+body {
+    background: black;
+}
 .container {
-    background: black  url(img/backgrount-index.jpg) no-repeat ;
+    background: black url(img/backgrount-index.jpg) no-repeat ;
     width: 1200px;
     margin: 0 auto;
     padding: 1px;
@@ -27,6 +30,7 @@
     font-weight: bold;
 }
  li a:hover{
+    padding-bottom: 34px;
     border-bottom: 5px solid #fff;
     cursor: pointer;
 }
@@ -75,7 +79,7 @@
     width: 980px;
     margin-top: 40px;
     background: white;
-    margin-left: 125px;
+    margin-left: 112px;
     overflow: hidden;
 }
 .clear {
@@ -137,12 +141,13 @@
     display: block;
     float: left;
     margin-bottom: 65px;
+    
 }
 .line-section{
     width: 8px;
     height: 278px;
     float:left;
-    margin: 60px 0 0 75px;  
+    margin: 60px 0 0 50px;  
 }
 .content-right-colon{
     float: left;
@@ -275,6 +280,62 @@
     text-transform: uppercase;
     padding-left: 10px;
 }
+.btn:hover{
+    background: white;
+}
+.btn:focus {
+    outline: none;
+}
+.design{
+    margin-left: 130px;
+    float: left;
+}
+.design h3{
+    color: aliceblue;
+    font-family: 'PT Sans Narrow';
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 75px;
+    padding-left: 140px;
+    padding-bottom: 0;
+}
+.gluhanko{
+    background: #000 ;
+    color: #fff;
+    margin: 0 5px 30px 120px;
+    border-radius: 0;
+    font-family: "PT Sans Narrow";
+    padding: 12px 30px 12px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+    border: none;
+}
+.gluhanko:hover{
+    background: white;
+    color: black;
+}
+.gluhanko:focus{
+     outline: none;
+}
+.send:hover{
+    background: white;
+    color: black;
+}
+.send:focus{
+    outline: none;
+}
+.back-and-forth:hover{
+    background: white;
+    color: black;
+}
+.back-and-forth:focus{
+    outline: none;
+}
+    
 
     
 
